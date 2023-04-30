@@ -1,0 +1,13 @@
+.card_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+@media (max-width: 768px){
+  .card_list{
+    justify-content: space-around;
+  }
+}
+
